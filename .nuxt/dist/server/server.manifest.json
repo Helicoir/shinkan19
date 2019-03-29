@@ -1,0 +1,37 @@
+{
+  "entry": "server.js",
+  "files": {
+    "37279c22d37f55ea6db1.js": "37279c22d37f55ea6db1.js",
+    "5c428888a14c388ccaaf.js": "5c428888a14c388ccaaf.js",
+    "5d99fa37696874421808.js": "5d99fa37696874421808.js",
+    "6a4352f09f9e7b377933.js": "6a4352f09f9e7b377933.js",
+    "741409af1193dd22e7d7.js": "741409af1193dd22e7d7.js",
+    "90e0189334210ca84e2b.js": "90e0189334210ca84e2b.js",
+    "97d2595200726a8943ef.js": "97d2595200726a8943ef.js",
+    "a8f1a8ec125c732346fe.js": "a8f1a8ec125c732346fe.js",
+    "aa0425d2f6042d254eee.js": "aa0425d2f6042d254eee.js",
+    "aafc56e79ad46743cf56.js": "aafc56e79ad46743cf56.js",
+    "b140d8039974879686e1.js": "b140d8039974879686e1.js",
+    "b9c26caacd43ca81a0b4.js": "b9c26caacd43ca81a0b4.js",
+    "c6a89e47b64850dc72f6.js": "c6a89e47b64850dc72f6.js",
+    "d71c8d3dbbd1e83b2363.js": "d71c8d3dbbd1e83b2363.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "37279c22d37f55ea6db1.js": "37279c22d37f55ea6db1.js.map",
+    "5c428888a14c388ccaaf.js": "5c428888a14c388ccaaf.js.map",
+    "5d99fa37696874421808.js": "5d99fa37696874421808.js.map",
+    "6a4352f09f9e7b377933.js": "6a4352f09f9e7b377933.js.map",
+    "741409af1193dd22e7d7.js": "741409af1193dd22e7d7.js.map",
+    "90e0189334210ca84e2b.js": "90e0189334210ca84e2b.js.map",
+    "97d2595200726a8943ef.js": "97d2595200726a8943ef.js.map",
+    "a8f1a8ec125c732346fe.js": "a8f1a8ec125c732346fe.js.map",
+    "aa0425d2f6042d254eee.js": "aa0425d2f6042d254eee.js.map",
+    "aafc56e79ad46743cf56.js": "aafc56e79ad46743cf56.js.map",
+    "b140d8039974879686e1.js": "b140d8039974879686e1.js.map",
+    "b9c26caacd43ca81a0b4.js": "b9c26caacd43ca81a0b4.js.map",
+    "c6a89e47b64850dc72f6.js": "c6a89e47b64850dc72f6.js.map",
+    "d71c8d3dbbd1e83b2363.js": "d71c8d3dbbd1e83b2363.js.map",
+    "server.js": "server.js.map"
+  }
+}
