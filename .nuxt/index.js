@@ -11,6 +11,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
+import nuxt_plugin_webfontloader_19299aa7 from 'nuxt_plugin_webfontloader_19299aa7' // Source: ./webfontloader.js (mode: 'client')
+
 // Component: <NoSsr>
 Vue.component(NoSsr.name, NoSsr)
 
@@ -110,8 +112,35 @@ async function createApp(ssrContext) {
     payload: ssrContext ? ssrContext.payload : undefined,
     req: ssrContext ? ssrContext.req : undefined,
     res: ssrContext ? ssrContext.res : undefined,
-    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined
+    beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,
+    ssrContext
   })
+
+  const inject = function (key, value) {
+    if (!key) throw new Error('inject(key, value) has no key provided')
+    if (typeof value === 'undefined') throw new Error('inject(key, value) has no value provided')
+    key = '$' + key
+    // Add into app
+    app[key] = value
+
+    // Add into store
+    store[key] = app[key]
+
+    // Check if plugin not already installed
+    const installKey = '__nuxt_' + key + '_installed__'
+    if (Vue[installKey]) return
+    Vue[installKey] = true
+    // Call Vue.use() to install the plugin into vm
+    Vue.use(() => {
+      if (!Vue.prototype.hasOwnProperty(key)) {
+        Object.defineProperty(Vue.prototype, key, {
+          get() {
+            return this.$root.$options[key]
+          }
+        })
+      }
+    })
+  }
 
   if (process.client) {
     // Replace store state before plugins execution
@@ -121,6 +150,10 @@ async function createApp(ssrContext) {
   }
 
   // Plugin execution
+
+  if (process.client && typeof nuxt_plugin_webfontloader_19299aa7 === 'function') {
+    await nuxt_plugin_webfontloader_19299aa7(app.context, inject)
+  }
 
   // If server-side, wait for async component to be resolved first
   if (process.server && ssrContext && ssrContext.url) {

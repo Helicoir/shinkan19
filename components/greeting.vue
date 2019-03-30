@@ -26,7 +26,7 @@
 .centeredBrainLine_greeting{
     margin: 10vmin auto;
     width: 30vmin;
-    height: 0.3vmin;
+    height: 0.5px;
     background: white;
   }
 

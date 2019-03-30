@@ -10,16 +10,26 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Wasedasai2019 staff recruit site' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Noto+Serif+JP"}
     ],
     script:[
       { src: '//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js' }
-    ]
+    ],
   },
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  /*☄
+  ** Webfontloader
+  */  
+  modules: [['nuxt-webfontloader']],
+    webfontloader: {
+      typekit: {
+        id: 'blm3vtb'
+      }
+  },
   /*
   ** Build configuration
   */

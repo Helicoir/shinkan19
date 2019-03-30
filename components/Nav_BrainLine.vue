@@ -12,7 +12,7 @@ export default {
   .centeredBrainLine_square{
     margin: 10vmin auto;
     width: 20vmin;
-    height: 1px;
+    height: 0.5px;
     background: white;
   }
 </style>

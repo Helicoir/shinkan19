@@ -6,11 +6,11 @@
       <p><span>新歓公式サイト</span></p>
       <BrainLine />
       <section class="footer_navWrap">
-        <nuxt-link to="/about" class="footer_navWrap_a">早稲田祭について</nuxt-link>
-        <nuxt-link to="/events" class="footer_navWrap_a wrapped">新歓イベント</nuxt-link>
-        <nuxt-link to="/activity" class="footer_navWrap_a wrapped">活動について</nuxt-link>
-        <nuxt-link to="/entry" class="footer_navWrap_a wrapped">入会について</nuxt-link>
-        <nuxt-link to="/contact" class="footer_navWrap_a wrapped">お問い合わせ</nuxt-link>
+        <nuxt-link to="/about/" class="footer_navWrap_a">早稲田祭について</nuxt-link>
+        <nuxt-link to="/events/" class="footer_navWrap_a wrapped">新歓イベント</nuxt-link>
+        <nuxt-link to="/activity/" class="footer_navWrap_a wrapped">活動について</nuxt-link>
+        <nuxt-link to="/entry/" class="footer_navWrap_a wrapped">入会について</nuxt-link>
+        <nuxt-link to="/contact/" class="footer_navWrap_a wrapped">お問い合わせ</nuxt-link>
       </section>
       <aside class="copyright">
         <p class="copyright_p">©︎早稲田祭2019運営スタッフ All Rights Reserved.</p>
@@ -56,7 +56,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 /* reset CSS end */
 
 html {
-  font-family: "Yu Mincho", serif, "YuMincho", serif, "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Noto Serif JP', serif, "Yu Mincho", serif, "YuMincho", serif, "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -65,6 +65,8 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background: #464655;
+  font-weight: 300;
+  font-style: normal;
 }
 
 *, *:before, *:after {

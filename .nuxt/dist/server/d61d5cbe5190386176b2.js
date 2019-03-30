@@ -1,0 +1,2 @@
+exports.ids=[12],exports.modules={132:function(t,e,r){"use strict";r.r(e);var c=r(1),component=Object(c.a)({},function(){var t=this.$createElement;return(this._self._c||t)("section",{staticClass:"contaner"},[this._ssrNode("<aside><p>ギャラリー</p></aside>")])},[],!1,null,null,"dc4b5c9a");e.default=component.exports}};
+//# sourceMappingURL=d61d5cbe5190386176b2.js.map
