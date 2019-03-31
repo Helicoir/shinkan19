@@ -31,7 +31,7 @@
             <p>それを運営する私たちに</p>
             <p>ついてご紹介します。</p>
             <div class="contents_box_aWrap">
-              <nuxt-link to="/about" class="contents_box_a">詳しくみる</nuxt-link>
+              <nuxt-link to="/about/" class="contents_box_a">詳しくみる</nuxt-link>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
             <p>4つの新歓イベントを</p>
             <p>ご紹介します。</p>
             <div class="contents_box_aWrap">
-              <nuxt-link to="/events" class="contents_box_a">詳しくみる</nuxt-link>
+              <nuxt-link to="/events/" class="contents_box_a">詳しくみる</nuxt-link>
             </div>
           </div>
           <div class="contents_box_img events"></div>
@@ -59,7 +59,7 @@
             <p>当日の様子などを</p>
             <p>ご覧いただけます。</p>
             <div class="contents_box_aWrap">
-              <nuxt-link to="/activity" class="contents_box_a">詳しくみる</nuxt-link>
+              <nuxt-link to="/activity/" class="contents_box_a">詳しくみる</nuxt-link>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
             <p>こちらからまとめて</p>
             <p>ご覧いただけます。</p>
             <div class="contents_box_aWrap">
-              <nuxt-link to="/entry" class="contents_box_a">詳しくみる</nuxt-link>
+              <nuxt-link to="/entry/" class="contents_box_a">詳しくみる</nuxt-link>
             </div>
           </div>
           <div class="contents_box_img entry"></div>
@@ -87,7 +87,7 @@
             <p>お問い合わせの方法について</p>
             <p>掲載しています。</p>
             <div class="contents_box_aWrap">
-              <nuxt-link to="/contact" class="contents_box_a">詳しくみる</nuxt-link>
+              <nuxt-link to="/contact/" class="contents_box_a">詳しくみる</nuxt-link>
             </div>
           </div>
         </div>
