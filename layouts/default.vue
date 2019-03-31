@@ -6,11 +6,11 @@
       <p><span>新歓公式サイト</span></p>
       <BrainLine />
       <section class="footer_navWrap">
-        <nuxt-link to="about" class="footer_navWrap_a">早稲田祭について</nuxt-link>
-        <nuxt-link to="events" class="footer_navWrap_a wrapped">新歓イベント</nuxt-link>
-        <nuxt-link to="activity" class="footer_navWrap_a wrapped">活動について</nuxt-link>
-        <nuxt-link to="entry" class="footer_navWrap_a wrapped">入会について</nuxt-link>
-        <nuxt-link to="contact" class="footer_navWrap_a wrapped">お問い合わせ</nuxt-link>
+        <nuxt-link to="about/" class="footer_navWrap_a">早稲田祭について</nuxt-link>
+        <nuxt-link to="events/" class="footer_navWrap_a wrapped">新歓イベント</nuxt-link>
+        <nuxt-link to="activity/" class="footer_navWrap_a wrapped">活動について</nuxt-link>
+        <nuxt-link to="entry/" class="footer_navWrap_a wrapped">入会について</nuxt-link>
+        <nuxt-link to="contact/" class="footer_navWrap_a wrapped">お問い合わせ</nuxt-link>
       </section>
       <aside class="copyright">
         <p class="copyright_p">©︎早稲田祭2019運営スタッフ All Rights Reserved.</p>
