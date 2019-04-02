@@ -21,6 +21,7 @@ export default {
   .top_wrap_img{
     position: relative;
     width: 95%;
+    height: 65vmin;
     float: right;
     z-index: 60;
   }

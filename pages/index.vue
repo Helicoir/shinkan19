@@ -111,7 +111,11 @@ export default {
   },
   
   mounted(){
-    this.flash()
+    if ( window.sessionStorage && sessionStorage.getItem('isConfirmed') !== 'yes' ) {
+      this.flash()
+    }else{
+      this.flash_bb()
+    }
   },
   methods: {
     // 以下アニメーション
@@ -135,6 +139,27 @@ export default {
         delay: 4,
         display: 'block'
       })
+    },
+    flash_bb(){
+      TweenMax.to('.SecondWrap', 0, {
+        width: '100vmin',
+        ease: Expo.easeInOut
+      }),
+      TweenMax.to('.bgimg2', 0, {
+        opacity: 0.9,
+        ease: Expo.easeInOut
+      }),
+      TweenMax.to('main', 0, {
+        opacity: 1,
+        zIndex: 99,
+        display: 'block'
+      })
+    },
+    // bbしたかチェックする
+    bbcheck(){
+      window.addEventListener('popstate', function(e){
+        this.flash_bb()
+      })
     }
   }
   
@@ -146,6 +171,7 @@ main{
   display: none;
   z-index: 0;
   width: 85%;
+  max-width: 765px;
   margin: 0 auto;
   padding-top: 10vh;
 }

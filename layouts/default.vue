@@ -102,9 +102,12 @@ h3{
 
 }
 
+p, a, span{
+  font-size: 5vmin;
+}
+
 p, span{
   color: white;
-  font-size: 5vmin;
   line-height: 1.45;
   text-decoration: none;
 }
@@ -125,7 +128,7 @@ footer{
 .footer_navWrap{
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   margin: 8vmin 0 0 3vmin;
 }
 

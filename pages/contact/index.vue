@@ -1,6 +1,9 @@
 <template>
   <section class="contaner">
-    <MainVisuial />
+    <MainVisual />
+      <!--
+      <img src="../../assets/images/contact.jpg" alt="" class="top_wrap_img">
+      -->
     <main>
       <h1>お問い合わせ</h1>
       <BrainLine />
@@ -22,13 +25,13 @@
 </template>
 
 <script>
-import MainVisuial from '~/components/TopVisual'
+import MainVisual from '~/components/TopVisual'
 import BrainLine from '~/components/BrainLine'
 import Caution from '~/components/Caution'
 
 export default {
   components: {
-    MainVisuial,
+    MainVisual,
     BrainLine,
     Caution
   }

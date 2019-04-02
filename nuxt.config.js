@@ -17,7 +17,8 @@ module.exports = {
       { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Noto+Serif+JP"}
     ],
     script:[
-      { src: '//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js' }
+      { src: '//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js' },
+      { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js' }
     ],
   },
   /*
