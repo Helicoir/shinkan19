@@ -6,7 +6,7 @@ import _6f6c098b from '../layouts/default.vue'
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"早稲田祭2019運営スタッフ 新歓公式サイト","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"早稲田祭2019運営スタッフ 新歓公式サイト"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Noto+Serif+JP"}],"script":[{"src":"\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgsap\u002Flatest\u002FTweenMax.min.js"}],"style":[]},
+  head: {"title":"早稲田祭2019運営スタッフ 新歓公式サイト","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"早稲田祭2019運営スタッフ 新歓公式サイト"},{"hid":"og:image","property":"og:image","content":"\u002Fogp.png"},{"hid":"og:title","property":"og:title","content":"早稲田祭2019運営スタッフ 新歓公式サイト"},{"hid":"og:type","property":"og:type","content":"website"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Noto+Serif+JP"}],"script":[{"src":"\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgsap\u002Flatest\u002FTweenMax.min.js"},{"src":"https:\u002F\u002Fajax.googleapis.com\u002Fajax\u002Flibs\u002Fjquery\u002F3.2.1\u002Fjquery.min.js"}],"style":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })

@@ -41,7 +41,7 @@
           <img src="../../assets/images/lunch.jpg" alt="交流ランチ" class="events_img">
           <Caution>
             <h2>実施詳細</h2>
-            <p>各回 17:00〜17:45（16:50開場）</p>
+            <p>各回 11:30〜13:00</p>
             <p>-</p>
             <div class="wrapper">
                 <p>企画場所</p>
