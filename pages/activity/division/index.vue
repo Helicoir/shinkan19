@@ -15,13 +15,15 @@
 </template>
 
 <script>
+import BrainLineC from '~/components/CenteredBrainLine'
 import MainVisuial from '~/components/TopVisual'
 import BrainLine from '~/components/BrainLine'
 
 export default {
   components: {
     MainVisuial,
-    BrainLine
+    BrainLine,
+    BrainLineC
   },
 }
 </script>

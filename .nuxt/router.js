@@ -7,10 +7,10 @@ const _464dcf5d = () => interopDefault(import('../pages/activity/index.vue' /* w
 const _189b4630 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _3ecf09fa = () => interopDefault(import('../pages/entry/index.vue' /* webpackChunkName: "pages/entry/index" */))
 const _599b99a7 = () => interopDefault(import('../pages/events/index.vue' /* webpackChunkName: "pages/events/index" */))
-const _8faa3244 = () => interopDefault(import('../pages/faq/index.vue' /* webpackChunkName: "pages/faq/index" */))
 const _33a6d99a = () => interopDefault(import('../pages/gallery/index.vue' /* webpackChunkName: "pages/gallery/index" */))
 const _2f3a3074 = () => interopDefault(import('../pages/information/index.vue' /* webpackChunkName: "pages/information/index" */))
 const _0a0e17f5 = () => interopDefault(import('../pages/activity/division/index.vue' /* webpackChunkName: "pages/activity/division/index" */))
+const _106b0a24 = () => interopDefault(import('../pages/activity/faq/index.vue' /* webpackChunkName: "pages/activity/faq/index" */))
 const _40c39310 = () => interopDefault(import('../pages/activity/division/KIK.vue' /* webpackChunkName: "pages/activity/division/KIK" */))
 const _3b2b3a55 = () => interopDefault(import('../pages/activity/division/PAC.vue' /* webpackChunkName: "pages/activity/division/PAC" */))
 const _d1a3372c = () => interopDefault(import('../pages/activity/division/PM.vue' /* webpackChunkName: "pages/activity/division/PM" */))
@@ -112,10 +112,6 @@ export function createRouter() {
       component: _599b99a7,
       name: "events"
     }, {
-      path: "/faq",
-      component: _8faa3244,
-      name: "faq"
-    }, {
       path: "/gallery",
       component: _33a6d99a,
       name: "gallery"
@@ -127,6 +123,10 @@ export function createRouter() {
       path: "/activity/division",
       component: _0a0e17f5,
       name: "activity-division"
+    }, {
+      path: "/activity/faq",
+      component: _106b0a24,
+      name: "activity-faq"
     }, {
       path: "/activity/division/KIK",
       component: _40c39310,
