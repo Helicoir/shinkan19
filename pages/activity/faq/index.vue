@@ -1,10 +1,13 @@
 <template>
   <section class="contaner">
-    <MainVisuial />
+    <MainVisuial>
+      <img src="../../../assets/images/faq.jpg" alt="" class="top_wrap_img">
+    </MainVisuial>
     <main>
       <h1>よくある質問</h1>
       <BrainLine />
-      <div v-for="question in $store.state.faq" :key="question.Q"
+      <p>このページでは、みなさんの早稲田祭2019運営スタッフに対する疑問にお答えします！</p>
+      <div v-for="question in $store.state.faq" :key="question.A"
       class="faq_container">
         <p class="faq_question">{{question.Q}}</p>
         <p class="faq_answer">{{question.A}}</p>
@@ -27,7 +30,7 @@ export default {
 
 <style>
 .faq_container{
-  margin-bottom: 7vmin;
+  margin: 15vmin 0 10vmin 0;
 }
 
 .faq_question{
@@ -36,10 +39,17 @@ export default {
   padding: 5vmin;
   border: 0.5px solid white;
 }
+.faq_question::before{
+  content: "Q."
+}
 
 .faq_answer{
   display: block;
   width: 100%;
   padding: 5vmin;
+  border: 0.5px solid white;
+}
+.faq_answer::before{
+  content: "A."
 }
 </style>

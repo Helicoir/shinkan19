@@ -4,7 +4,7 @@
       <img src="../../../assets/images/sample1.jpg" alt="" class="top_wrap_img">
     </MainVisuial>
     <main>
-      <h1>局紹介</h1>
+      <h1>運営スタッフの一年</h1>
       <BrainLine />
       <UC />
       <section class="contents_wrap">

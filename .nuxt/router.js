@@ -7,10 +7,12 @@ const _464dcf5d = () => interopDefault(import('../pages/activity/index.vue' /* w
 const _189b4630 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _3ecf09fa = () => interopDefault(import('../pages/entry/index.vue' /* webpackChunkName: "pages/entry/index" */))
 const _599b99a7 = () => interopDefault(import('../pages/events/index.vue' /* webpackChunkName: "pages/events/index" */))
-const _33a6d99a = () => interopDefault(import('../pages/gallery/index.vue' /* webpackChunkName: "pages/gallery/index" */))
 const _2f3a3074 = () => interopDefault(import('../pages/information/index.vue' /* webpackChunkName: "pages/information/index" */))
+const _b39a8c32 = () => interopDefault(import('../pages/activity/annual/index.vue' /* webpackChunkName: "pages/activity/annual/index" */))
 const _0a0e17f5 = () => interopDefault(import('../pages/activity/division/index.vue' /* webpackChunkName: "pages/activity/division/index" */))
 const _106b0a24 = () => interopDefault(import('../pages/activity/faq/index.vue' /* webpackChunkName: "pages/activity/faq/index" */))
+const _b9836264 = () => interopDefault(import('../pages/activity/freePaper/index.vue' /* webpackChunkName: "pages/activity/freePaper/index" */))
+const _5cf7e9e0 = () => interopDefault(import('../pages/activity/gallery/index.vue' /* webpackChunkName: "pages/activity/gallery/index" */))
 const _40c39310 = () => interopDefault(import('../pages/activity/division/KIK.vue' /* webpackChunkName: "pages/activity/division/KIK" */))
 const _3b2b3a55 = () => interopDefault(import('../pages/activity/division/PAC.vue' /* webpackChunkName: "pages/activity/division/PAC" */))
 const _d1a3372c = () => interopDefault(import('../pages/activity/division/PM.vue' /* webpackChunkName: "pages/activity/division/PM" */))
@@ -112,13 +114,13 @@ export function createRouter() {
       component: _599b99a7,
       name: "events"
     }, {
-      path: "/gallery",
-      component: _33a6d99a,
-      name: "gallery"
-    }, {
       path: "/information",
       component: _2f3a3074,
       name: "information"
+    }, {
+      path: "/activity/annual",
+      component: _b39a8c32,
+      name: "activity-annual"
     }, {
       path: "/activity/division",
       component: _0a0e17f5,
@@ -127,6 +129,14 @@ export function createRouter() {
       path: "/activity/faq",
       component: _106b0a24,
       name: "activity-faq"
+    }, {
+      path: "/activity/freePaper",
+      component: _b9836264,
+      name: "activity-freePaper"
+    }, {
+      path: "/activity/gallery",
+      component: _5cf7e9e0,
+      name: "activity-gallery"
     }, {
       path: "/activity/division/KIK",
       component: _40c39310,
