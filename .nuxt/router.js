@@ -13,10 +13,6 @@ const _0a0e17f5 = () => interopDefault(import('../pages/activity/division/index.
 const _106b0a24 = () => interopDefault(import('../pages/activity/faq/index.vue' /* webpackChunkName: "pages/activity/faq/index" */))
 const _b9836264 = () => interopDefault(import('../pages/activity/freePaper/index.vue' /* webpackChunkName: "pages/activity/freePaper/index" */))
 const _5cf7e9e0 = () => interopDefault(import('../pages/activity/gallery/index.vue' /* webpackChunkName: "pages/activity/gallery/index" */))
-const _40c39310 = () => interopDefault(import('../pages/activity/division/KIK.vue' /* webpackChunkName: "pages/activity/division/KIK" */))
-const _3b2b3a55 = () => interopDefault(import('../pages/activity/division/PAC.vue' /* webpackChunkName: "pages/activity/division/PAC" */))
-const _d1a3372c = () => interopDefault(import('../pages/activity/division/PM.vue' /* webpackChunkName: "pages/activity/division/PM" */))
-const _c7f30e7c = () => interopDefault(import('../pages/activity/division/SH.vue' /* webpackChunkName: "pages/activity/division/SH" */))
 const _c2c5cdd2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -137,22 +133,6 @@ export function createRouter() {
       path: "/activity/gallery",
       component: _5cf7e9e0,
       name: "activity-gallery"
-    }, {
-      path: "/activity/division/KIK",
-      component: _40c39310,
-      name: "activity-division-KIK"
-    }, {
-      path: "/activity/division/PAC",
-      component: _3b2b3a55,
-      name: "activity-division-PAC"
-    }, {
-      path: "/activity/division/PM",
-      component: _d1a3372c,
-      name: "activity-division-PM"
-    }, {
-      path: "/activity/division/SH",
-      component: _c7f30e7c,
-      name: "activity-division-SH"
     }, {
       path: "/",
       component: _c2c5cdd2,
