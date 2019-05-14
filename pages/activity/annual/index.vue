@@ -6,7 +6,6 @@
     <main>
       <h1>運営スタッフの一年</h1>
       <BrainLine />
-    
       <div class="timeline">
     <h5>4月</h5>
   <div class="container left">

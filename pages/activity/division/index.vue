@@ -1,7 +1,7 @@
 <template>
   <article class="contaner">
     <MainVisuial>
-      <img src="../../../assets/images/sample1.jpg" alt="" class="top_wrap_img">
+      <img src="../../../assets/images/Kouhouseisaku.jpg" class="top_wrap_img">
     </MainVisuial>
     <main>
       <h1>局紹介</h1>

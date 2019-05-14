@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h3{
   margin: 8vmin 0;
   font-size: 6vmin;

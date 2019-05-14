@@ -10,9 +10,13 @@ const _599b99a7 = () => interopDefault(import('../pages/events/index.vue' /* web
 const _2f3a3074 = () => interopDefault(import('../pages/information/index.vue' /* webpackChunkName: "pages/information/index" */))
 const _b39a8c32 = () => interopDefault(import('../pages/activity/annual/index.vue' /* webpackChunkName: "pages/activity/annual/index" */))
 const _0a0e17f5 = () => interopDefault(import('../pages/activity/division/index.vue' /* webpackChunkName: "pages/activity/division/index" */))
+const _0f3641f2 = () => interopDefault(import('../pages/activity/division 2/index.vue' /* webpackChunkName: "pages/activity/division 2/index" */))
 const _106b0a24 = () => interopDefault(import('../pages/activity/faq/index.vue' /* webpackChunkName: "pages/activity/faq/index" */))
 const _b9836264 = () => interopDefault(import('../pages/activity/freePaper/index.vue' /* webpackChunkName: "pages/activity/freePaper/index" */))
 const _5cf7e9e0 = () => interopDefault(import('../pages/activity/gallery/index.vue' /* webpackChunkName: "pages/activity/gallery/index" */))
+const _1c3612bc = () => interopDefault(import('../pages/activity/division 2/KIK.vue' /* webpackChunkName: "pages/activity/division 2/KIK" */))
+const _a52d72d0 = () => interopDefault(import('../pages/activity/division 2/PM.vue' /* webpackChunkName: "pages/activity/division 2/PM" */))
+const _9b7d4a20 = () => interopDefault(import('../pages/activity/division 2/SH.vue' /* webpackChunkName: "pages/activity/division 2/SH" */))
 const _c2c5cdd2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -122,6 +126,10 @@ export function createRouter() {
       component: _0a0e17f5,
       name: "activity-division"
     }, {
+      path: "/activity/division 2",
+      component: _0f3641f2,
+      name: "activity-division 2"
+    }, {
       path: "/activity/faq",
       component: _106b0a24,
       name: "activity-faq"
@@ -133,6 +141,18 @@ export function createRouter() {
       path: "/activity/gallery",
       component: _5cf7e9e0,
       name: "activity-gallery"
+    }, {
+      path: "/activity/division 2/KIK",
+      component: _1c3612bc,
+      name: "activity-division 2-KIK"
+    }, {
+      path: "/activity/division 2/PM",
+      component: _a52d72d0,
+      name: "activity-division 2-PM"
+    }, {
+      path: "/activity/division 2/SH",
+      component: _9b7d4a20,
+      name: "activity-division 2-SH"
     }, {
       path: "/",
       component: _c2c5cdd2,
