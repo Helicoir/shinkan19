@@ -1,23 +1,5 @@
 # 19shinkan
 
-> Wasedasai2019 staff recruit site
+> 早稲田祭2019運営スタッフ 新歓サイト
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
+* SP版のみ
